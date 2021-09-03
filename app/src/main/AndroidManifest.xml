@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.abhishek.ocassionkeys">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_noshadow1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_noshadow"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme,android:label">
+        <activity android:name=".AdminMaintainProductsActivity"></activity>
+        <activity android:name=".SearchProductsActivity" />
+
+        <activity android:name=".AdminUserProductsActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".UPIpayment" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminAddNewProductActivity" />
+        <activity android:name=".AdminNewOrdersActivity" />
+        <activity android:name=".AdmincategoryActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".SplashScrActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PWresetActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:node="replace" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.abhishek.ocassionkeys.Model.Users"
+            />
+    </application>
+
+
+</manifest>
