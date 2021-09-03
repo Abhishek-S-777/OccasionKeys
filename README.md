@@ -1,5 +1,5 @@
 # OccasionKeys
-OccasionKeys is an android app built using Java and XML with Google Firebase as back-end, which was built to provide users all the necessary items required for an event such as  sound systems, tents, utensils etc.
+OccasionKeys is an android app built using Java and XML with Google Firebase as back-end, to provide users all the necessary items required for an event such as  sound systems, tents, utensils etc.
 
 ### Key Features: ###
 
